@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:150%; 
+	margin-left: 19%;
+}
+table {
+	border-color:#FFFFFF;
+	border-style:solid;
+	background: #FFFFFF;
+}
+
+.link {
+	text-align: center;
+	background-color:#339999;
+	color:#FFFFFF;
+
+}
+
+.link a {
+	text-decoration:none;
+	color:white;
+}
+
+.footer {
+	background-color:#339999;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+#g_nav { text-align: center; float: none; }
+#g_nav a { font-size:1.2em; color: #333; }
+
+#wrap { width:100%; border-top:1px solid #eaeaea; border-bottom:1px solid #eaeaea; padding:14px 0px;  }
+
+#content { width:777px; height:auto; margin:0; }
+
+#content .gallery { width:900px; margin:0 auto; padding:5px; background-color:#fff; overflow:hidden; }
+
+#content .aboutnews { width:799px; overflow:hidden; margin:14px 0px 0px 0px; }
+
+#content .aboutnews .box { float:left;  width:250px; height:196px; overflow:hidden; margin:0px 18px 0px 0px;  }
+
+#content .aboutnews .box img { padding:0px; margin:0px; width:309px; height:35px; float:left; }
+
+#content .aboutnews .box .about { height:186px; padding:0px 10px 10px 10px; margin:0px 0px 0px 0px; background-color:#fff; float:left; overflow:scroll; }
+
+#content .aboutnews .box .about p { font-size:11px; line-height:15px; word-spacing:1px; }
+
+#content .aboutnews .box .about p a, #content .aboutnews .box .about p a:visited { color:#a8082a; text-decoration:none; text-transform:uppercase; }
+
+#content .aboutnews .box .about p a:hover { color:#333; text-decoration:none; text-transform:uppercase; }
+
+#content .aboutnews .box .latest { height:186px; list-style:none; background-color:#fff; padding:0px 10px 10px 10px; font-size:11px; float:left; }
+
+#content .aboutnews .box .latest li { display:block; width:289px; border-bottom:1px solid #ededed; padding:0px 0px 5px 0px; margin:0px 0px 5px 0px; }
+
+#content .aboutnews .box .latest li a, #content .aboutnews .box .latest li a:visited { text-decoration:none; color:#a8082a }
+
+#content .aboutnews .box .latest li a:hover { text-decoration:none; color:#333 }
+
+#content .aboutnews .box2 { float:left; width:250px; height:240px; background-color:#fff; padding:4px; }
+
+#content .aboutnews .box2 strong { text-transform:uppercase; color:#191919; }
+
+#content .aboutnews .box2 img { margin:10px 0px; }
+
+#content .aboutnews .box2 .link a {text-decoration:none;}
